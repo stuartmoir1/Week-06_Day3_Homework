@@ -1,5 +1,9 @@
 package behaviours;
 
 public interface Driveable {
-  public int driveDistance(int distance);
+
+  // Contract. Method 'driveTime' must be defined in all classes that use
+  // this interface.
+  public int driveTime(int distance);
+
 }
