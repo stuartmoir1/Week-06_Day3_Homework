@@ -14,6 +14,8 @@ public class DodgemCar implements Driveable {
     this.numSeats = numSeats;
   }
 
+  // Methods
+
   // Required by contract in the interface 'Driveable'.
   public int driveTime(int distance){
     return distance / this.averageSpeed;

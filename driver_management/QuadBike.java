@@ -14,12 +14,14 @@ public class QuadBike implements Driveable {
     this.engineCapacity = engineCapacity;
   }
 
+  // Methods
+
   // Required by contract in the interface 'Driveable'.
   public int driveTime(int distance){
     return distance / this.averageSpeed;
   }
 
-  // public int capacityOfEngine(){
-  //   return this.engineCapacity;
-  // }
+  public int capacityOfEngine(){
+    return this.engineCapacity;
+  }
 }

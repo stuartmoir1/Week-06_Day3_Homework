@@ -14,8 +14,8 @@ public class QuadBikeTest {
     assertEquals(2, bike.driveTime(20));
   }
 
-  // @Test public void bikeEngineCapacity(){
-  //   assertEquals(500, bike.capacityOfEngine());
-  // }
+  @Test public void bikeEngineCapacity(){
+    assertEquals(500, bike.capacityOfEngine());
+  }
 
 }
