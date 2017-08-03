@@ -12,6 +12,12 @@ public class Vehicle{
   }
 
   // Methods.
+
+  // Required by contract in the interface 'Driveable'.
+  public int driveTime(int distance){
+    return distance / this.averageSpeed;
+  }
+  
   public String goodToDrive(){
     return "Yes!";
   }

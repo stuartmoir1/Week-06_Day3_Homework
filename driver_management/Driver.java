@@ -22,7 +22,6 @@ public class Driver{
     return this.vehicle;
   }
 
-  // Required by contract in the interface 'Driveable'.
   public int driveTime(int distance){
     return this.vehicle.driveTime(distance);
   }
