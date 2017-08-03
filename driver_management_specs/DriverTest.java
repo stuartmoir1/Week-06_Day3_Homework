@@ -25,7 +25,7 @@ public class DriverTest {
   }
 
   @Test public void driverVehicleDriveTimeCar(){
-    assertEquals(1, driver.driveTime(10));
+    assertEquals(2, driver.driveTime(20));
   }
 
   @Test public void driverVehicleDriveTimeBike(){

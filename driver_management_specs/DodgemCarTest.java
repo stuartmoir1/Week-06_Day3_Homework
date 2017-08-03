@@ -18,4 +18,8 @@ public class DodgemCarTest {
     assertEquals(2, car.numOfSeats());
   }
 
+  @Test public void carGoodToDrive(){
+    assertEquals("Yes!", car.goodToDrive());
+  }
+
 }

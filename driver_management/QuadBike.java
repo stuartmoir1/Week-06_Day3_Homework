@@ -2,15 +2,14 @@ package driver_management;
 import behaviours.*;
 
 // Interfaces w/ interface Driveable.
-public class QuadBike implements Driveable {
+public class QuadBike extends Vehicle implements Driveable{
 
   // Instance variables.
-  private int averageSpeed;
   private int engineCapacity;
 
   // Constructor.
   public QuadBike(int averageSpeed, int engineCapacity){
-    this.averageSpeed = averageSpeed;
+    super(averageSpeed);
     this.engineCapacity = engineCapacity;
   }
 

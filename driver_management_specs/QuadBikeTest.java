@@ -18,4 +18,8 @@ public class QuadBikeTest {
     assertEquals(500, bike.capacityOfEngine());
   }
 
+  @Test public void bikeGoodToDrive(){
+    assertEquals("Yes!", bike.goodToDrive());
+  }
+
 }

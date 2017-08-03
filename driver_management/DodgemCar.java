@@ -1,16 +1,15 @@
-package driver_management; // Access all java files in dir driver_management.
-import behaviours.*; // Access all java files in dir behaviours.
+package driver_management;
+import behaviours.*;
 
 // Interfaces w/ interface Driveable.
-public class DodgemCar implements Driveable {
+public class DodgemCar extends Vehicle implements Driveable{
 
   // Instance variables.
-  private int averageSpeed;
   private int numSeats;
 
   // Constructor.
   public DodgemCar(int averageSpeed, int numSeats){
-    this.averageSpeed = averageSpeed;
+    super(averageSpeed);
     this.numSeats = numSeats;
   }
 
